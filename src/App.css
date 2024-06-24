@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.App {
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 2px solid #8758ff;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.todo-input::placeholder {
+  color: #ffffffb3;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.todo-btn:hover {
+  background: #6c43cc;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6c43cc;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: background 0.3s ease;
+}
+
+.Todo:hover {
+  background: #5a36a3;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+  color: #ff6b6b;
+  transition: color 0.3s ease;
+}
+
+.fa-trash:hover {
+  color: #ff3b3b;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.incompleted:hover {
+  color: #c5aeff;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.completed:hover {
+  color: #ffffff;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #c5aeff;
+}
