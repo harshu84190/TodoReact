@@ -1,7 +1,4 @@
 # TodoReact
-
-Credit: [YouTube - TodoReact Tutorial](https://youtu.be/LoYbN6qoQHA?si=-6Walj5sE1f_X3IS)
-
 Steps:
 1. Clone the project
 2. Open the project in your IDE
